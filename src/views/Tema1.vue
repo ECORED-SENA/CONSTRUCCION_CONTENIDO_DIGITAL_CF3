@@ -92,7 +92,8 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/3RHnB9izZ_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     p.mb-4 Luego de desarrollar la marca visual, se reutiliza gran parte de su contenido para crear las piezas gráficas iniciales. Se debe observar el siguiente video, el cual enseña a cómo seguir creando piezas, según el calendario propuesto.
   
@@ -100,7 +101,8 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/VDC5rltd8Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     h3 ¡Ahora es su turno!
     p Teniendo claros los pasos a seguir y el uso de la herramienta para la creación de piezas digitales, se producirán las piezas desarrollando los pasos descritos a continuación.
