@@ -10,7 +10,7 @@
       h1 Introducción
     
     .row.mb-4
-      .col-lg-7.mb-2
+      .col-lg-7.mb-2(data-aos="fade-right")
         p Llegó la hora de poner en práctica los conocimientos adquiridos, para producir piezas de contenido gráfico en 
           strong Figma, 
           | algunas piezas de audio en 
@@ -21,15 +21,15 @@
           strong.etiqueta objetivo de comunicación,
           | la promoción de la marca, sus valores y sus servicios.
         p Después de tener claro el objetivo de comunicación para “Voy Llegando”, se crea una planeación de contenido como lo muestra la tabla 1 que define las primeras piezas digitales que se deberán producir.   
-      .col-lg-5.mb-2
+      .col-lg-5.mb-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/imagen-intro.svg', alt='Imagen decorativa') 
 
     
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade")
       h5 Tabla 1
     
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-down")
       .tabla-b__header
         h4.mb-0 CALENDARIO
       table
@@ -119,7 +119,7 @@
 
 
     
-    p.mb-0 Cuando el calendario se encuentre listo, ¡manos a la obra!
+    p.mb-0(data-aos="fade") Cuando el calendario se encuentre listo, ¡manos a la obra!
     strong ¡Muchos éxitos en sus prácticas!      
 
 
@@ -131,9 +131,15 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
-<style lang="sass" scoped>
-.introduccion
-</style>
+<style lang="sass" scoped></style>

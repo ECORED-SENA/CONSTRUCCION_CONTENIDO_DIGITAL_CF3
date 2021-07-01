@@ -9,16 +9,16 @@
       h1 Creación de imagen
     
     .row.mb-4
-      .col-lg-7.mb-2
+      .col-lg-7.mb-2(data-aos="fade-right")
         p Para crear asombrosas imágenes que transmitan, impacten, y permitan mejorar las ventas y la imagen del negocio u organización, para luego compartirlas en las redes sociales, se dispone de múltiples plataformas que explotan al máximo la creatividad, al agregar y retocar dichas imágenes, o los textos y los efectos en ellas.
         p Se debe recordar que ya se realizaron la planeación y el diseño básico para la creación de un contenido digital en un momento anterior, donde se plantearon herramientas y presentaron pasos para encontrar una solución digital, a partir de un recurso o medio, como puede ser una imagen, un audio o un video.
         p Se desarrollará el trabajo para una pequeña empresa que se dedica a realizar domicilios, facilitando así el acceso a los productos de primera necesidad a todos los habitantes de la localidad en donde se ubica. Cabe aclarar, que no tiene muchos clientes porque aún no es muy reconocida, pero ese problema se puede solucionar con el uso de medios digitales y, para lograrlo, primero se creará una imagen que le permita mostrarse como empresa para que la comunidad pueda identificar sus servicios.  
-      .col-lg-5.mb-2
+      .col-lg-5.mb-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/imagen-tema1.svg', alt='Imagen decorativa') 
 
     .row.justify-content-center.mb-5
-      .col-lg-10.cajon.color-primario
+      .col-lg-10.cajon.color-primario(data-aos="fade-down")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4.p-lg-1.p-1
             figure
@@ -39,12 +39,12 @@
                 i.fas.fa-check
                 p.mb-0 Tener lista la planeación.
 
-    p.mb-4 Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
+    p.mb-4(data-aos="fade") Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade")
       h5 Tabla 2
     
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-down")
       .tabla-b__header
         h4.mb-0 CALENDARIO
       table
@@ -86,28 +86,28 @@
             td Logo minimalista, que se pueda adaptar a cualquier tipo de contenido.
             
 
-    p.mb-4 El siguiente video presenta el flujo de trabajo, el cual aportará, como resultado, una marca visual para la empresa de domicilios “Voy Llegando”.
+    p.mb-4(data-aos="fade") El siguiente video presenta el flujo de trabajo, el cual aportará, como resultado, una marca visual para la empresa de domicilios “Voy Llegando”.
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/3RHnB9izZ_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-    p.mb-4 Luego de desarrollar la marca visual, se reutiliza gran parte de su contenido para crear las piezas gráficas iniciales. Se debe observar el siguiente video, el cual enseña a cómo seguir creando piezas, según el calendario propuesto.
+    p.mb-4(data-aos="fade") Luego de desarrollar la marca visual, se reutiliza gran parte de su contenido para crear las piezas gráficas iniciales. Se debe observar el siguiente video, el cual enseña a cómo seguir creando piezas, según el calendario propuesto.
   
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/VDC5rltd8Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-    h3 ¡Ahora es su turno!
-    p Teniendo claros los pasos a seguir y el uso de la herramienta para la creación de piezas digitales, se producirán las piezas desarrollando los pasos descritos a continuación.
+    h3(data-aos="fade-right") ¡Ahora es su turno!
+    p(data-aos="fade") Teniendo claros los pasos a seguir y el uso de la herramienta para la creación de piezas digitales, se producirán las piezas desarrollando los pasos descritos a continuación.
 
-    PasosA.color-acento-contenido.mb-5(tipo="n")
+    PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="fade-down")
       .row.align-items-center
         .col-md-3.px-lg-5.p-5
           figure
@@ -144,9 +144,9 @@
           p Crear las piezas programadas y exportar como imágenes.       
 
 
-    p Los resultados del proyecto, se pueden compartir en las diferentes redes sociales, 
+    p(data-aos="fade") Los resultados del proyecto, se pueden compartir en las diferentes redes sociales, 
       span.etiqueta etiquetando 
-        strong @SENAComunica y usando el hashtag #HabilidadesDigitales.  
+        strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena.  
 
 
 </template>
@@ -155,8 +155,16 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    indicador1: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

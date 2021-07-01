@@ -9,28 +9,28 @@
       h1 Creación de video
     
     .row.mb-5
-      .col-lg-7.mb-2
+      .col-lg-7.mb-2(data-aos="fade-right")
         p Crear un video es sencillo, solo se deben tener en cuenta el guion y los demás consejos que se aprendieron anteriormente. Es así como en esta etapa de producción de contenido digital, se integran las piezas gráficas, audios y videos, para un resultado audiovisual que cumpla con las expectativas; todo esto realizado a partir del uso de un dispositivo móvil.
-      .col-lg-5.mb-2
+      .col-lg-5.mb-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/imagen-tema3.svg', alt='Imagen decorativa') 
     
-    p.mb-4 Para iniciar, se recomienda tener todos los recursos copiados en el dispositivo móvil. Luego, observar el siguiente video, el cual nos presentará paso a paso, la creación de un video.
+    p.mb-4(data-aos="fade") Para iniciar, se recomienda tener todos los recursos copiados en el dispositivo móvil. Luego, observar el siguiente video, el cual nos presentará paso a paso, la creación de un video.
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/erk3tP-avF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-    h3 ¡Ahora es su turno!
+    h3(data-aos="fade-right") ¡Ahora es su turno!
 
-    p.mb-5 Teniendo claro el proceso para la creación de un video, producir uno y los resultados del proyecto se pueden compartir en las diferentes redes sociales, 
+    p.mb-5(data-aos="fade") Teniendo claro el proceso para la creación de un video, producir uno y los resultados del proyecto se pueden compartir en las diferentes redes sociales, 
       span.etiqueta etiquetando 
-        strong @SENAComunica y usando el hashtag #HabilidadesDigitales. 
+        strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.cajon.color-primario
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4.p-lg-3.p-2.py-4
@@ -49,8 +49,16 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    indicador1: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

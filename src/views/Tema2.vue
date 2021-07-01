@@ -9,19 +9,19 @@
       h1 Creación de audio
     
     .row.mb-4
-      .col-lg-7.mb-2
+      .col-lg-7.mb-2(data-aos="fade-right")
         p Los anuncios publicitarios son recursos importantes para transmitir un mensaje. Un audio original que sea fácil de entender y que cumpla la función de informar y persuadir al cliente, será una excelente táctica a utilizar. Es así como “Voy Llegando” ya inició con la estrategia de publicidad, creando una imagen como se explicó anteriormente; pero, si se le agrega un audio, podría ser aún más interesante.
         p También es importante definir el medio por el cual se va a transmitir este anuncio; puede ser netamente visual, audiovisual, sonoro, etc.
         .cajon.color-primario2.p-4
           p La idea es hacerlo a través de una herramienta gratuita como 
             strong Audacity. 
             | Ingresar y descargar la aplicación Audacityteam https://www.audacityteam.org/ presionando el botón de descarga DOWNLOAD AUDACITY y realizar la respectiva instalación.
-      .col-lg-5.mb-2
+      .col-lg-5.mb-2(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/imagen-tema1.svg', alt='Imagen decorativa') 
+          img(src='@/assets/curso/imagen-tema2.svg', alt='Imagen decorativa') 
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.cajon.color-primario
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4.p-lg-3.py-4
@@ -41,7 +41,7 @@
                 p.mb-0 Utilizar micrófono (auriculares). El micrófono incorporado en el PC puede grabar bien, pero los micrófonos externos lo hacen mejor. Para este proceso se recomienda tener distanciado el micrófono.
 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-lg-9
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
             .row.m-0.align-items-center.justify-content-between
@@ -57,19 +57,19 @@
                   img(src='@/assets/curso/imagen2-tema2.svg', alt='Icono sobre dos personas grabando') 
 
    
-    p.mb-4 Se debe observar el siguiente video que enseña cómo crear el audio para el guion propuesto.
+    p.mb-4(data-aos="fade") Se debe observar el siguiente video que enseña cómo crear el audio para el guion propuesto.
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/cgqq8gDEPHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
-    h3 ¡Ahora es su turno!
-    p Teniendo claro el proceso para la creación de un audio, producir uno desarrollando los pasos descritos a continuación.
+    h3(data-aos="fade-right") ¡Ahora es su turno!
+    p(data-aos="fade") Teniendo claro el proceso para la creación de un audio, producir uno desarrollando los pasos descritos a continuación.
 
-    PasosA.color-acento-contenido.mb-5(tipo="n")
+    PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="fade-down")
       .row.align-items-center
         .col-md-3.px-lg-5.p-5
           figure
@@ -100,9 +100,9 @@
       
 
 
-    p Los resultados del proyecto, se pueden compartir en las diferentes redes sociales
+    p(data-aos="fade") Los resultados del proyecto, se pueden compartir en las diferentes redes sociales
       span.etiqueta etiquetando 
-        strong @SENAComunica y usando el hashtag #HabilidadesDigitales.  
+        strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena.  
 
 </template>
 
@@ -110,8 +110,16 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    indicador1: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
