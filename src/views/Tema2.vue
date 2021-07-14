@@ -8,7 +8,7 @@
         span 2
       h1 Creación de audio
     
-    .row.mb-4
+    .row.mb-5
       .col-lg-7.mb-2(data-aos="fade-right")
         p Los anuncios publicitarios son recursos importantes para transmitir un mensaje. Un audio original que sea fácil de entender y que cumpla la función de informar y persuadir al cliente, será una excelente táctica a utilizar. Es así como “Voy Llegando” ya inició con la estrategia de publicidad, creando una imagen como se explicó anteriormente; pero, si se le agrega un audio, podría ser aún más interesante.
         p También es importante definir el medio por el cual se va a transmitir este anuncio; puede ser netamente visual, audiovisual, sonoro, etc.
@@ -29,7 +29,7 @@
               img(src='@/assets/curso/audio-curso.svg', alt='Icono sobre grabación de audio')
           .col-lg-8.p-lg-4.px-4
             p Seleccionar la opción Grabar previamente y crear un guion, el cual se leerá teniendo en cuenta los siguientes consejos:
-            ul.lista.lista-ul--color.p-1.mt-2
+            ul.lista.lista-ul--color.p-1.my-0
               li 
                 i.fas.fa-check
                 p.mb-0 Seleccionar el micrófono con el que se va a grabar.
@@ -48,9 +48,9 @@
               .col-lg-8.mb-4.mb-lg-0
                 .bloque-texto-a__texto.p-4.comillas
                   p.mb-3 Para este proyecto, no se requieren piezas de audio complejas, así que se usará la grabación de un guion relativamente corto.
-                  p.strong 
+                  .d-flex 
                     i.fas.fa-quote-left
-                    strong  “Confiables, rápidos y seguros. Voy llegando domicilios” 
+                    p.text-center <b>“Confiables, rápidos y seguros. Voy llegando domicilios” </b>
                     i.fas.fa-quote-right
               .col-lg-4      
                 figure
@@ -75,11 +75,11 @@
           figure
             img(src='@/assets/curso/icono-paso1-tema2.svg', alt='Icono de alistamiento')
         .col-md-9
-          p Crear un guion acorde al proyecto.  
+          .h3 Crear un guion acorde al proyecto.  
         
       .row.align-items-center
         .col-md-9
-          p Grabar con cualquier dispositivo. 
+          .h3 Grabar con cualquier dispositivo. 
         .col-md-3.px-lg-5.p-5
           figure
             img(src='@/assets/curso/icono-paso2-tema2.svg', alt='Icono de grabación')
@@ -89,11 +89,11 @@
           figure
             img(src='@/assets/curso/icono-paso3-tema2.svg', alt='Icono de programa')
         .col-md-9
-          p Editar con Audacity. 
+          .h3 Editar con Audacity. 
         
       .row.align-items-center
         .col-md-9
-          p Exportar a mp4.  
+          .h3 Exportar a mp4.  
         .col-md-3.px-lg-5.p-5
           figure
             img(src='@/assets/curso/icono-paso4-tema2.svg', alt='Icono de mp4')

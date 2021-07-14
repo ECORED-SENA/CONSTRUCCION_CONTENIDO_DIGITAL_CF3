@@ -8,14 +8,16 @@
         span 1
       h1 Creación de imagen
     
-    .row.mb-4
-      .col-lg-7.mb-2(data-aos="fade-right")
-        p Para crear asombrosas imágenes que transmitan, impacten, y permitan mejorar las ventas y la imagen del negocio u organización, para luego compartirlas en las redes sociales, se dispone de múltiples plataformas que explotan al máximo la creatividad, al agregar y retocar dichas imágenes, o los textos y los efectos en ellas.
-        p Se debe recordar que ya se realizaron la planeación y el diseño básico para la creación de un contenido digital en un momento anterior, donde se plantearon herramientas y presentaron pasos para encontrar una solución digital, a partir de un recurso o medio, como puede ser una imagen, un audio o un video.
-        p Se desarrollará el trabajo para una pequeña empresa que se dedica a realizar domicilios, facilitando así el acceso a los productos de primera necesidad a todos los habitantes de la localidad en donde se ubica. Cabe aclarar, que no tiene muchos clientes porque aún no es muy reconocida, pero ese problema se puede solucionar con el uso de medios digitales y, para lograrlo, primero se creará una imagen que le permita mostrarse como empresa para que la comunidad pueda identificar sus servicios.  
-      .col-lg-5.mb-2(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/imagen-tema1.svg', alt='Imagen decorativa') 
+    p.mb-5
+      img.img-p-t1(src='@/assets/curso/imagen-tema1.svg', alt='Imagen decorativa')
+      | Para crear asombrosas imágenes que transmitan, impacten, y permitan mejorar las ventas y la imagen del negocio u organización, para luego compartirlas en las redes sociales, se dispone de múltiples plataformas que explotan al máximo la creatividad, al agregar y retocar dichas imágenes, o los textos y los efectos en ellas.
+      br
+      br
+      | Se debe recordar que ya se realizaron la planeación y el diseño básico para la creación de un contenido digital en un momento anterior, donde se plantearon herramientas y presentaron pasos para encontrar una solución digital, a partir de un recurso o medio, como puede ser una imagen, un audio o un video.
+      br
+      br
+      | Se desarrollará el trabajo para una pequeña empresa que se dedica a realizar domicilios, facilitando así el acceso a los productos de primera necesidad a todos los habitantes de la localidad en donde se ubica. Cabe aclarar, que no tiene muchos clientes porque aún no es muy reconocida, pero ese problema se puede solucionar con el uso de medios digitales y, para lograrlo, primero se creará una imagen que le permita mostrarse como empresa para que la comunidad pueda identificar sus servicios.  
+  
 
     .row.justify-content-center.mb-5
       .col-lg-10.cajon.color-primario(data-aos="fade-down")
@@ -25,7 +27,7 @@
               img(src='@/assets/curso/brand-awareness.svg', alt='Icono de una bocina')
           .col-lg-8.p-lg-4.px-4
             p Se debe recordar que para crear una imagen se debe tener en cuenta lo siguiente:
-            ul.lista.lista-ul--color.p-1.mt-2
+            ul.lista.lista-ul--color.p-1.mb-0
               li 
                 i.fas.fa-check
                 p.mb-0 Definir lo que desea comunicar.
@@ -39,7 +41,7 @@
                 i.fas.fa-check
                 p.mb-0 Tener lista la planeación.
 
-    p.mb-4(data-aos="fade") Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
+    p.mb-5(data-aos="fade") Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
 
     .titulo-sexto.color-acento-contenido(data-aos="fade")
       h5 Tabla 2
@@ -50,20 +52,20 @@
       table
         thead.tabla-b__header2.text-white
           tr
-            td 
-              h5.mb-0 Red social
-            td 
-              h5.mb-0 Objetivo de comunicación
-            td 
-              h5.mb-0 Tipo de contenido 
-            td 
-              h5.mb-0 Guión 
-            td 
-              h5.mb-0 Copy
-            td 
-              h5.mb-0 Fecha
-            td 
-              h5.mb-0 Observaciones                
+            th 
+              .h5.mb-0 Red social
+            th 
+              .h5.mb-0 Objetivo de comunicación
+            th 
+              .h5.mb-0 Tipo de contenido 
+            th 
+              .h5.mb-0 Guión 
+            th 
+              .h5.mb-0 Copy
+            th 
+              .h5.mb-0 Fecha
+            th 
+              .h5.mb-0 Observaciones                
         tbody
           tr
             td.red-social
@@ -113,11 +115,11 @@
           figure
             img(src='@/assets/curso/icono-paso1.svg', alt='Icono de alistamiento')
         .col-md-9
-          p Elegir el proyecto. 
+          .h3 Elegir el proyecto. 
         
       .row.align-items-center
         .col-md-9
-          p Crear el calendario del contenido de las primeras 4 piezas digitales.
+          .h3 Crear el calendario del contenido de las primeras 4 piezas digitales.
         .col-md-3.px-lg-5.p-5
           figure
             img(src='@/assets/curso/icono-paso2.svg', alt='Icono de calendario')
@@ -127,11 +129,11 @@
           figure
             img(src='@/assets/curso/icono-paso3.svg', alt='Icono de boceto')
         .col-md-9
-          p Realizar los bocetos. 
+          .h3 Realizar los bocetos. 
         
       .row.align-items-center
         .col-md-9
-          p Diseñar en el identificador visual de Figma.
+          .h3 Diseñar en el identificador visual de Figma.
         .col-md-3.px-lg-5.p-5
           figure
             img(src='@/assets/curso/icono-paso4.svg', alt='Icono de diseño')
@@ -141,7 +143,7 @@
           figure
             img(src='@/assets/curso/icono-paso5.svg', alt='Icono de imagenes')
         .col-md-9
-          p Crear las piezas programadas y exportar como imágenes.       
+          .h3 Crear las piezas programadas y exportar como imágenes.       
 
 
     p(data-aos="fade") Los resultados del proyecto, se pueden compartir en las diferentes redes sociales, 

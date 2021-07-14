@@ -15,7 +15,7 @@
         figure
           img(src='@/assets/curso/imagen-tema3.svg', alt='Imagen decorativa') 
     
-    p.mb-4(data-aos="fade") Para iniciar, se recomienda tener todos los recursos copiados en el dispositivo móvil. Luego, observar el siguiente video, el cual nos presentará paso a paso, la creación de un video.
+    p.mb-5(data-aos="fade") Para iniciar, se recomienda tener todos los recursos copiados en el dispositivo móvil. Luego, observar el siguiente video, el cual nos presentará paso a paso, la creación de un video.
 
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
@@ -30,7 +30,7 @@
       span.etiqueta etiquetando 
         strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena. 
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
+    .row.justify-content-center(data-aos="fade-down")
       .col-lg-10.cajon.color-primario
         .row.justify-content-center.align-items-center
           .col-lg-2.col-4.p-lg-3.p-2.py-4
@@ -39,9 +39,6 @@
           .col-lg-8.p-lg-4.px-4
             h4 Recordar
             p Se puede crear todo lo que se pueda imaginar, lo importante es llevar siempre un orden y utilizar las herramientas correctas.
-            
-
-
 
 </template>
 

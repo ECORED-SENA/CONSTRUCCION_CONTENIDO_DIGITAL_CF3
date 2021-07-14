@@ -9,23 +9,26 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.mb-4
+    .row.align-items-center.mb-5
       .col-lg-7.mb-2(data-aos="fade-right")
-        p Llegó la hora de poner en práctica los conocimientos adquiridos, para producir piezas de contenido gráfico en 
-          strong Figma, 
-          | algunas piezas de audio en 
-          strong Audacity 
-          | y, finalmente, la producción audiovisual, integrando todos los elementos en 
-          strong CapCut.
-        p El proyecto que se va a desarrollar, en este caso, es para la empresa de domicilios “Voy Llegando”, la cual requiere piezas digitales para iniciar su promoción en las redes sociales, definiendo como 
-          strong.etiqueta objetivo de comunicación,
-          | la promoción de la marca, sus valores y sus servicios.
-        p Después de tener claro el objetivo de comunicación para “Voy Llegando”, se crea una planeación de contenido como lo muestra la tabla 1 que define las primeras piezas digitales que se deberán producir.   
+        p Ya tenemos claro cómo diseñar y planear cada una de las piezas que se pueden publicar en los diferentes medios digitales, 
+          b ahora conoceremos cómo crearlas (imagen, audio y video).   
+          br
+          br
+          | A medida que aprendamos cómo crear cada una de estas piezas, desarrollaremos un proyecto para la empresa de domicilios 
+          b “Voy Llegando”
+          | , la cual requiere piezas digitales para iniciar su promoción en las redes sociales, definiendo como objetivo de comunicación, la promoción de la marca, sus valores y sus servicios.
+
+        .cajon.color-secundario.p-4
+          p.mb-0 Como ya tenemos claro el objetivo de comunicación para 
+            b “Voy Llegando”
+            |, se crea una planeación de contenido que define las primeras piezas digitales que se deberán producir.
+
       .col-lg-5.mb-2(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/imagen-intro.svg', alt='Imagen decorativa') 
+          img(src='@/assets/curso/54642.svg', alt='Imagen decorativa') 
 
-    
+
     .titulo-sexto.color-acento-contenido(data-aos="fade")
       h5 Tabla 1
     
@@ -35,29 +38,29 @@
       table
         thead.tabla-b__header2.text-white
           tr
-            td 
-              h5.mb-0 Red social
-            td 
-              h5.mb-0 Objetivo de comunicación
-            td 
-              h5.mb-0 Tipo de contenido 
-            td 
-              h5.mb-0 Guión 
-            td 
-              h5.mb-0 Copy
-            td 
-              h5.mb-0 Fecha
-            td 
-              h5.mb-0 Observaciones                
+            th 
+              .h5.mb-0 Red social
+            th 
+              .h5.mb-0 Objetivo de comunicación
+            th 
+              .h5.mb-0 Tipo de contenido 
+            th 
+              .h5.mb-0 Guión 
+            th 
+              .h5.mb-0 Copy
+            th 
+              .h5.mb-0 Fecha
+            th 
+              .h5.mb-0 Observaciones                
         tbody
           tr
             td.red-social
               i.fab.fa-whatsapp
               i.fab.fa-instagram
               i.fab.fa-facebook
-            td Informar
-            td Identificador visual
-            td Voy Llegando 
+            td.text-small Informar
+            td.text-small Identificador visual
+            td.text-small Voy Llegando 
               br 
               | Domicilios 
               br 
@@ -66,43 +69,43 @@
               | Rápidos 
               br
               | Seguros
-            td - - -
-            td 1 septiembre 2021
-            td Logo minimalista, que se pueda adaptar a cualquier tipo de contenido.
+            td.text-small - - -
+            td.text-small 1 septiembre 2021
+            td.text-small Logo minimalista, que se pueda adaptar a cualquier tipo de contenido.
           tr
             td.red-social
               i.fab.fa-whatsapp
               i.fab.fa-instagram
               i.fab.fa-facebook 
-            td Promocionar
-            td Historia
-            td Servicio 24 horas +573001234567
-            td - - -
-            td 1 septiembre 2021
-            td Historia tipo Poster.
+            td.text-small Promocionar
+            td.text-small Historia
+            td.text-small Servicio 24 horas +573001234567
+            td.text-small - - -
+            td.text-small 1 septiembre 2021
+            td.text-small Historia tipo Poster.
           tr
             td.red-social 
               i.fab.fa-instagram
-            td Presentar servicios
-            td Post carrusel Instagram 
-            td Compras
+            td.text-small Presentar servicios
+            td.text-small Post carrusel Instagram 
+            td.text-small Compras
               br
               | Pagos
               br 
               | Comisiones
               br 
               | Mensajería
-            td #VoyLlegando, servicio de domicilios, rápidos, confiables y seguros #24h  
-            td 1 septiembre 2021
-            td 4 imágenes con el texto del servicio.
+            td.text-small #VoyLlegando, servicio de domicilios, rápidos, confiables y seguros #24h  
+            td.text-small 1 septiembre 2021
+            td.text-small 4 imágenes con el texto del servicio.
           tr
             td.red-social
               i.fab.fa-whatsapp
               i.fab.fa-instagram
               i.fab.fa-facebook  
-            td Presentar servicios
-            td Historia
-            td Compras
+            td.text-small Presentar servicios
+            td.text-small Historia
+            td.text-small Compras
               br 
               | Pagos
               br
@@ -111,17 +114,26 @@
               | Mensajería
               br
               | Servicio 24 horas
-            td - - -
-            td 1 septiembre 2021
-            td Versión animada del carrusel.
-         
+            td.text-small - - -
+            td.text-small 1 septiembre 2021
+            td.text-small Versión animada del carrusel.
 
-
-
-    
-    p.mb-0(data-aos="fade") Cuando el calendario se encuentre listo, ¡manos a la obra!
-    strong ¡Muchos éxitos en sus prácticas!      
-
+    .row.justify-content-center
+      .col-md-10
+        .cajon.color-secundario.p-4
+          p.mb-0 Ya el calendario está listo, así que 
+            b ¡manos a la obra!
+            br
+            br
+            | Produciremos piezas de contenido gráfico en 
+            b Figma
+            | , algunas piezas de audio en 
+            b Audacity 
+            | y, finalmente la producción audiovisual, integrando todos los elementos en 
+            b CapCut.
+            br
+            br
+            b ¡Muchos éxitos en tus prácticas! 
 
 </template>
 
