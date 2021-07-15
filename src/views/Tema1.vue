@@ -41,9 +41,55 @@
                 i.fas.fa-check
                 p.mb-0 Tener lista la planeación.
 
-    p.mb-5(data-aos="fade") Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
+    p.mb-5(data-aos="fade-down") Antes de crear la imagen, estudiemos qué es la psicología del color y en qué se fundamenta, lo cual le ayudará a elegir el color adecuado según lo que se desea transmitir.
+      br
+      br
+      | Podemos decir que el color es subjetivo, debido a que su percepción es individual y sensorial. Entonces, la psicología toma esta percepción, la clasifica y le otorga significados que van a depender de las funciones que apreciamos en el color. 
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade")
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-down")
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          h2.mb-0 En este punto, llegamos a clasificar las funciones del color como:  
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            ul.lista.lista-ul--color.p-1.mb-0
+              li 
+                i.fas.fa-check
+                p.mb-0 Las 
+                  b funciones de acople 
+                  |van a desplegar respuestas activas, enérgicas, intensas y animadas, excitantes y atractivas.
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 Las 
+                  b funciones contrarias 
+                  | van a desplegar respuestas inactivas, de desánimo y pagadas, calmantes y sedantes.
+    
+    
+    p.mb-5(data-aos="fade-down")
+      b El color puede entonces, excitar o deprimir, crear júbilo o aflicción. 
+      | Por lo tanto, se puede decir que determinado color puede fomentar una actitud activa o una pasiva.
+      br
+      br
+      | El color ayuda con las sensaciones como el calor o el frío, y a obtener impresiones como la de orden o desorden. Se identifica con lo masculino, y con lo femenino, lo popular y lo exclusivo, y con lo colectivo.
+      br
+      br
+      b Entonces, podemos concluir que el color es pura emoción.
+      br
+      br
+      | Es aquí donde todos estos atributos que observamos en el color, son altamente apreciados y por eso es sustentado por artistas, publicistas, diseñadores científicos, etc.
+      br
+      br
+      b El siguiente video presenta el significado de los colores en la publicidad. 
+
+    figure.mb-5(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UWSe5bCGNhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+    p.mb-5(data-aos="fade-down") Para empezar el proceso de creación de contenido gráfico, se tendrá en cuenta la primera pieza que se describe en la planeación como lo muestra la tabla 2, la cual corresponde al identificador visual para las redes sociales Whatsapp, Instagram y Facebook.      
+
+    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       h5 Tabla 2
     
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-down")
