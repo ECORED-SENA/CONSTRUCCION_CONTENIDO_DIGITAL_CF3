@@ -10,7 +10,7 @@
     
     .row.mb-5.justify-content-between.align-items-center
       .col-lg-8.col-xxl-7.mb-2(data-aos="fade-right")
-        p Crear un video es sencillo, solo se deben tener en cuenta el guion y los demás consejos que se aprendieron anteriormente. Es así como en esta etapa de producción de contenido digital, se integran las piezas gráficas, audios y videos, para un resultado audiovisual que cumpla con las expectativas; todo esto realizado a partir del uso de un dispositivo móvil.
+        p Crea un video sencillo de máximo 1 minuto, solo se deben tener en cuenta el guion y los demás consejos que se aprendieron anteriormente. Es así como en esta etapa de producción de contenido digital, se integran las piezas gráficas, audios y videos, para un resultado audiovisual que cumpla con las expectativas; todo esto realizado a partir del uso de un dispositivo móvil.
       .col-lg-4.mb-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/imagen-tema3.svg', alt='Imagen decorativa') 
