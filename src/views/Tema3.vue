@@ -26,19 +26,19 @@
 
     h3(data-aos="fade-right") ¡Ahora es su turno!
 
-    p.mb-5(data-aos="fade") Teniendo claro el proceso para la creación de un video, producir uno y los resultados del proyecto se pueden compartir en las diferentes redes sociales, 
+    p.mb-5(data-aos="fade") Teniendo claro el proceso para la creación de un video, lo invitamos a producir un video de máximo un minuto y compartirlo en el foro técnico de la plataforma y si los desea con sus redes sociales, 
       span.etiqueta usando el hashtag 
         b #HabilidadesDigitalesSena.
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10.cajon.color-primario
-        .row.justify-content-center.align-items-center
-          .col-lg-2.col-4.p-lg-3.p-2.py-4
+        .row.justify-content-around.align-items-center.p-4
+          .col-lg-2.col-4
             figure
               img(src='@/assets/curso/publicalo.svg', alt='Icono de notas')
-          .col-lg-8.p-lg-4.px-4
+          .col-lg-8
             h4 Recordar
-            p Se puede crear todo lo que se pueda imaginar, lo importante es llevar siempre un orden y utilizar las herramientas correctas.
+            p.mb-0 Se puede crear todo lo que se pueda imaginar, lo importante es llevar siempre un orden y utilizar las herramientas correctas.
 
 </template>
 

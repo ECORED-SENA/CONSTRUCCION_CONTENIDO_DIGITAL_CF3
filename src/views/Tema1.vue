@@ -191,11 +191,10 @@
         .col-md-9
           .h3 Crear las piezas programadas y exportar como imágenes.       
 
-
-    p(data-aos="fade") Los resultados del proyecto, se pueden compartir en las diferentes redes sociales, 
-      span.etiqueta usando el hashtag 
-        b #HabilidadesDigitalesSena.
-
+    .row.justify-content-center
+      .col-lg-10.cajon.color-primario
+        .p-4
+          p.mb-0 Lo invitamos a compartir los resultados del proyecto en el foro tecnico de la plataforma con una breve explicación del proceso y la experiencia durante el desarrollo de la actividad.
 
 </template>
 
