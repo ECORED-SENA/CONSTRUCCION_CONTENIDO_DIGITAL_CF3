@@ -194,7 +194,7 @@
     .row.justify-content-center
       .col-lg-10.cajon.color-primario
         .p-4
-          p.mb-0 Lo invitamos a compartir los resultados del proyecto en el foro tecnico de la plataforma con una breve explicación del proceso y la experiencia durante el desarrollo de la actividad.
+          p.mb-0 Lo invitamos a compartir los resultados del proyecto en el foro técnico de la plataforma con una breve explicación del proceso y la experiencia durante el desarrollo de la actividad.
 
 </template>
 
