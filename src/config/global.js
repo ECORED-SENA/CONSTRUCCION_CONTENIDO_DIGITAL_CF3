@@ -228,7 +228,7 @@ export default {
       {
         nombre: 'Jesualdo Morantes',
         cargo: 'Instructor',
-        centro: 'Regional Santander',
+        centro: 'SENA – Regional Norte de Santander',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
@@ -237,10 +237,9 @@ export default {
           'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
       {
-        nombre: 'Jhon Jairo Rodríguez Pérez',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+        nombre: 'Sandra Patricia  Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
@@ -262,19 +261,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Herrera Roldan',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -193,8 +193,8 @@
 
 
     p(data-aos="fade") Los resultados del proyecto, se pueden compartir en las diferentes redes sociales, 
-      span.etiqueta etiquetando 
-        strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena.  
+      span.etiqueta usando el hashtag 
+        b #HabilidadesDigitalesSena.
 
 
 </template>

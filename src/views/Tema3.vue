@@ -8,10 +8,10 @@
         span 3
       h1 Creación de video
     
-    .row.mb-5
-      .col-lg-7.mb-2(data-aos="fade-right")
+    .row.mb-5.justify-content-between.align-items-center
+      .col-lg-8.col-xxl-7.mb-2(data-aos="fade-right")
         p Crear un video es sencillo, solo se deben tener en cuenta el guion y los demás consejos que se aprendieron anteriormente. Es así como en esta etapa de producción de contenido digital, se integran las piezas gráficas, audios y videos, para un resultado audiovisual que cumpla con las expectativas; todo esto realizado a partir del uso de un dispositivo móvil.
-      .col-lg-5.mb-2(data-aos="fade-left")
+      .col-lg-4.mb-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/imagen-tema3.svg', alt='Imagen decorativa') 
     
@@ -27,8 +27,8 @@
     h3(data-aos="fade-right") ¡Ahora es su turno!
 
     p.mb-5(data-aos="fade") Teniendo claro el proceso para la creación de un video, producir uno y los resultados del proyecto se pueden compartir en las diferentes redes sociales, 
-      span.etiqueta etiquetando 
-        strong @SENAComunica y usando el hashtag #HabilidadesDigitalesSena. 
+      span.etiqueta usando el hashtag 
+        b #HabilidadesDigitalesSena.
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10.cajon.color-primario
